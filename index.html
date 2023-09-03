@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <img class="Logo" src="./assets/img/Logo.png" alt="">
+            <h1 class="Logo-title">Farm records</h1>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Artistas</a></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="fa-solid fa-bars" id="btn-exp" ></i></button>              
+            </div>           
+        </div>       
+    </nav>
+     <!---Mobile menu-->
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Artistas</a></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Sobre</a></a></li>
+        </ul>
+    </header>
+
+    <!---main-->
+    <main>
+            <div class="content">
+
+                <div class="slides">
+        
+                    <input class="input" type="radio" name="slide" id="slide1" checked>
+                    <input class="input" type="radio" name="slide" id="slide2">
+                    <input class="input" type="radio" name="slide" id="slide3">
+                    <input class="input" type="radio" name="slide" id="slide4">
+                    <input class="input" type="radio" name="slide" id="slide5">
+        
+        
+                    <div class="slide s1">
+                        <img class="main-png" src="./assets/img/img2.jpeg" alt="">
+                    </div>
+        
+                    <div class="slide">
+                        <img class="main-png" src="./assets/img/img1.jpeg" alt="">
+                    </div>
+        
+                    <div class="slide">
+                        <img class="main-png" src="./assets/img/img2.jpeg" alt="">
+                    </div>
+        
+                    <div class="slide">
+                        <img class="main-png" src="./assets/img/img2.jpeg" alt="">
+                    </div>
+        
+                    <div class="slide">
+                        <img class="main-png" src="./assets/img/img3.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+        
+            </div>
+        
+        
+        
+
+
+
+ <script src="main.js"></script>
+</body>
+</html>
